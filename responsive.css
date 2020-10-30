@@ -6,6 +6,9 @@
 	.logo img {
 		max-width: 250px;
 	}
+	.single-music-list li {
+		font-size: 2rem;
+	}
 }
 /*	Medium Layout: 1280px	*/
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -75,6 +78,13 @@
 	}
 	.single-music-list h4 {
 		font-size: 18px;
+	}
+	.mleft {
+		margin-left: 0;
+	}
+	.music-list-wrap {
+		width: 80%;
+		margin: 0 auto;
 	}
 
 }
