@@ -1,0 +1,139 @@
+/*------Start Base CSS------*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: 'Bebas Neue',
+  cursive;
+}
+img {
+  height: auto;
+  max-width: 100%;
+  border: none;
+}
+body,
+html {
+  height: 100%;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+a:focus {
+  color: #333;
+  text-decoration: none;
+}
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+  outline: 0 solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 10px;
+  margin-top: 0;
+  font-family: 'Montserrat',
+  sans-serif;
+  font-weight: 700;
+}
+p {
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+.float_left {
+  float: left;
+}
+.float_right {
+  float: right;
+}
+.fix:before,
+.fix:after {
+  content: '';
+  display: table;
+}
+.fix:after {
+  clear: both;
+}
+/*------End Base CSS------*/
+
+.main-wrapper {
+  background-image: url("assets/img/bg4.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: 0 0;
+  padding: 30px 0;
+  position: relative;
+  z-index: 1;
+}
+.header-right {
+  color: #fff;
+  font-size: 20px;
+  max-width: 90%;
+  text-align: center;
+}
+.header-right h1 {
+  font-size: 45px;
+  color: #fff;
+}
+.header-right h2 {
+  font-size: 26px;
+  color: #fff;
+  background-color: #0065cf;
+  padding: 5px 10px;
+  display: inline-block;
+}
+.header-right p {
+  padding: 0 50px;
+}
+.header-right span,
+.single-music-list span, h4.secondary-color {
+  color: #ffde00;
+}
+
+.single-music-list h4,
+.single-music-list li {
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+.single-music-list li {
+  font-size: 20px;
+  line-height: 1;
+  position: relative;
+}
+
+ul li::before {
+  content: "\2022";
+  color: #fff;
+  font-weight: bold;
+  display: inline-block;
+  width: .5em;
+  left: 0;
+}
+
+ul.style2 li::before {
+  color: #ffde00;
+}
+
+h4.secondary-color {
+  color: #ffde00;
+}
+.single-music-list.mt--50 {
+  margin-top: -50px;
+}
+.single-music-list.mt--85 {
+  margin-top: -85px;
+}
+.mleft {
+  margin-left: 60px;
+}

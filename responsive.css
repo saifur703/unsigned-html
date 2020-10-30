@@ -1,0 +1,91 @@
+/*	Medium Layout: 1280px	*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	/* css */
+	.main-wrapper {
+		background: none;
+		background-image: url("assets/img/bg2.jpg");
+	}
+	.main-wrapper::before {
+		position: absolute;
+		content: "";
+		left: 0;
+		top: 35%;
+		width: 25%;
+		height: 100%;
+		background: url("assets/img/girl.png") no-repeat scroll 0 0 / contain;
+	} 
+}
+
+
+
+/*		Tablet Layout: 768px.       */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	/* css */
+
+}
+
+
+
+
+/*		Tablet and Mobile Layout         */
+@media only screen and (max-width: 991px) {
+
+	/* css */
+	.main-wrapper {
+		background: none;
+		background-color: #053a86;
+	}
+	.single-music-list.mt--50 {
+		margin-top: 0;
+	}
+	.single-music-list.mt--85 {
+		margin-top: 0;
+	}
+
+}
+
+
+/*		Mobile Layout: 320px.         */
+
+@media only screen and (max-width: 767px) {
+
+	.logo img {
+		max-width: 250px;
+		margin-bottom: 20px;
+	}
+	.logo {
+		margin: auto;
+		text-align: center;
+	}
+	.header-right h1 {
+		font-size: 30px;
+	}
+
+}
+
+
+
+/*		Wide Mobile Layout: 480px.        */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	/* css */
+
+}
+
+
+
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+
+	/* css */
+
+}
