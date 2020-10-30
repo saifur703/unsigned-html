@@ -1,6 +1,10 @@
 @media only screen and (min-width: 1600px) {
 	.main-wrapper {
-		background-size: cover;
+		background-size: 100%;
+		height: 100%;
+	}
+	.logo img {
+		max-width: 250px;
 	}
 }
 /*	Medium Layout: 1280px	*/
@@ -64,7 +68,13 @@
 		text-align: center;
 	}
 	.header-right h1 {
-		font-size: 30px;
+		font-size: 24px;
+	}
+	.header-right h2 {
+		font-size: 16px;
+	}
+	.single-music-list h4 {
+		font-size: 18px;
 	}
 
 }
