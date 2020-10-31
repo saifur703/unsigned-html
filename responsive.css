@@ -1,3 +1,8 @@
+@media only screen and (min-width: 1920px) { 
+	.single-music-list li {
+		font-size: 1.8rem;
+	}
+}
 @media only screen and (min-width: 1600px) {
 	.main-wrapper {
 		background-size: 100%;
